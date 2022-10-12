@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background-color: rgb(58, 55, 55);
+    background-size: cover;
+    background-position: center center;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+    color: rgb(85, 102, 108);
+    text-shadow: 1px 1px 0px black;
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.653);
+    width: 80vw;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+img{
+ display: block;
+ margin: auto;
+}
+
+img#phone{ display: none;}
+img#tablet{display: block;}
+img#pc{display: none;}
+img#tv{display: none;}
+img#print{display: none;}
+
+ 
