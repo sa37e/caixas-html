@@ -42,6 +42,9 @@ menu > ul > li > a{
         background-color: gray;
     }
 
+    menu > ul > li{
+        display: inline-block;
+    }
     main{
         width: 90vw;
         background-color: white;
